@@ -39,11 +39,11 @@ const Todo = () => {
 
     return (
         <div>
+            <h2>Todo List</h2>
             <div className="form-container">
                 <input onChange={inputChange} type="text" />
                 <button onClick={addToDo}>Add To-do</button>
             </div>
-            <h2>Todo List</h2>
             {todos.length ? todos.map((item, index) => {
                 return (<h6>{item.label}<button onClick={()=>removeToDo(index)}>Delete</button></h6>)
             }): null}
