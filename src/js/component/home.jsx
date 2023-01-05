@@ -6,7 +6,7 @@ import Todo from "./Todo.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="to-do-input">
+		<div>
 			<Todo />
 		</div>
 	);

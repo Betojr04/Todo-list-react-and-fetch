@@ -1,8 +1,3 @@
-input{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 /* 
 
     You can write your own styles here...
@@ -14,3 +9,9 @@ input{
     import 'relative/path/to/stylesheet.scss';
 
 */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
