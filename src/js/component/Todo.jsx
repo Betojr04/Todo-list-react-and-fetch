@@ -45,7 +45,7 @@ const Todo = () => {
                 <button onClick={addToDo}>Add To-do</button>
             </div>
             {todos.length ? todos.map((item, index) => {
-                return (<h6>{item.label}<button onClick={()=>removeToDo(index)}>Delete</button></h6>)
+                return (<h6><ol><li>{item.label}</li></ol><button onClick={()=>removeToDo(index)}>Delete</button></h6>)
             }): null}
         </div>
     );
