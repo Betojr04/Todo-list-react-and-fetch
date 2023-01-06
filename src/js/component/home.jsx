@@ -6,7 +6,7 @@ import Todo from "./Todo.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="bg-light" style={{height:"100vh"}}>
 			<Todo />
 		</div>
 	);
